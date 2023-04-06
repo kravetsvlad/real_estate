@@ -1,0 +1,22 @@
+<svg width="192" height="11" viewBox="0 0 192 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path opacity="0.2" d="M0 1.5H191.5" stroke="url(#paint0_linear_2_119)" stroke-width="3" stroke-dasharray="5 10"/>
+<defs>
+<linearGradient id="paint0_linear_2_119" x1="5" y1="2.99944" x2="196.5" y2="3.49958" gradientUnits="userSpaceOnUse">
+<stop stop-color="#9672FF"/>
+<stop offset="1" stop-color="#4DDFFD"/>
+</linearGradient>
+</defs>
+<circle
+     r="5.5"
+     cy="1.5"
+     cx="6"
+     id="dot"
+     style="fill: #9672FF" />
+     
+<circle
+     r="5.5"
+     cy="1.5"
+     cx="186"
+     id="dot"
+     style="fill: #4DDFFD" />
+</svg>
