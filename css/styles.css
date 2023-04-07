@@ -1166,16 +1166,16 @@ body._lock {
 
 /* ============================================================= */
 
-.simple-rating {
+/* .simple-rating {
   position: relative;
   font-size: 21px;
   display: inline-block;
-}
-.simple-rating::before {
+} */
+/* .simple-rating::before {
   content: "★★★★★";
   display: block;
-}
-.simple-rating__items {
+} */
+/* .simple-rating__items {
   position: absolute;
   width: 87.5px;
   height: 100%;
@@ -1184,8 +1184,8 @@ body._lock {
   display: flex;
   flex-direction: row-reverse;
   overflow: hidden;
-}
-.simple-rating__item {
+} */
+/* .simple-rating__item {
   position: absolute;
   width: 0%;
   height: 0%;
@@ -1193,21 +1193,30 @@ body._lock {
   visibility: hidden;
   top: 0;
   left: 0;
-}
-.simple-rating__label {
+} */
+/* .simple-rating__label {
   flex: 0 0 20%;
   height: 100%;
   cursor: pointer;
   color: #ffdf00;
-}
-.simple-rating__label::before {
+} */
+/* .simple-rating__label::before {
   content: "★";
   display: block;
   transition: color 0.3s ease;
+} */
+
+/* .simple-rating__item:checked,
+.simple-rating__item:checked ~ .simple-rating__label {
+  color: #ff9529;
+} */
+
+.simple-rating__item {
+  color: #ffdf00;
+  font-size: 21px;
 }
 
-.simple-rating__item:checked,
-.simple-rating__item:checked ~ .simple-rating__label {
+.simple-rating__item.checked {
   color: #ff9529;
 }
 
