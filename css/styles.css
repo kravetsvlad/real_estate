@@ -1308,7 +1308,10 @@ body._lock {
   display: none;
 }
 .item-reviews__arrow.swiper-button-prev {
-  transform: rotate(180deg) translateY(5%);
+  transform: rotate(180deg) translateY(100%);
+}
+.item-reviews__arrow.swiper-button-next {
+  transform: translateY(-100%);
 }
 .item-reviews__rating {
   margin-bottom: 33px;
