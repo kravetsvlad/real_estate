@@ -974,8 +974,8 @@ body._lock {
   .item-tabs__arrow.swiper-button-next {
     margin: 0;
     position: static;
-    height: 30px;
-    width: 15px;
+    height: 20px;
+    width: 11px;
     background: url("../img/main/arrow.svg") 0 0 / 100% no-repeat;
   }
 
@@ -983,7 +983,7 @@ body._lock {
     transform: rotate(180deg) translateY(10%);
   }
   .item-tabs__arrow.swiper-button-next {
-    transform: translateY(10%);
+    transform: translateY(-5%);
   }
 }
 .item-tabs__arrow::after {
@@ -1311,7 +1311,7 @@ body._lock {
   transform: rotate(180deg) translateY(100%);
 }
 .item-reviews__arrow.swiper-button-next {
-  transform: translateY(-100%);
+  transform: translateY(-95%);
 }
 .item-reviews__rating {
   margin-bottom: 33px;
